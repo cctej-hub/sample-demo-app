@@ -1,0 +1,8 @@
+{
+  "serviceName": "cbe-retail-transfer-service",
+  "team": "core-banking",
+  "buildType": "maven",
+  "javaVersion": "17",
+  "targetEnvironment": "uat",
+  "notificationChannel": "#cbe-banking-ci"
+}
