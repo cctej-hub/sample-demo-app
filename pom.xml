@@ -18,4 +18,14 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>cbe-nexus-releases</id>
+            <url>http://nexus-nexus-repository-manager.nexus.svc.cluster.local:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>cbe-nexus-snapshots</id>
+            <url>http://nexus-nexus-repository-manager.nexus.svc.cluster.local:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
