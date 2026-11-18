@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: harbor.34.73.160.64.nip.io/cbe-core-banking/cbe-retail-transfer-service
+  pullPolicy: Always
+  tag: "latest"
+
+imagePullSecrets:
+  - name: harbor-creds
+
+service:
+  type: ClusterIP
+  port: 8080
